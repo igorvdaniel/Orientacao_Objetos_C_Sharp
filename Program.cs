@@ -1,15 +1,19 @@
 ﻿Musica musica1 = new Musica();
 Musica musica2 = new Musica();
 
-musica1.nome = "Será";
-musica1.artista = "Legião Urbana";
-musica1.disponivel = true;
-musica1.duracao = 1000;
+musica1.Nome = "Será";
+musica1.Artista = "Legião Urbana";
+//musica1.set_disponivel(true);
+musica1.Disponivel = true;
+musica1.Duracao = 1000;
+Console.WriteLine(musica1.Descricao_Resumida);
 
-musica2.nome = "Hoje";
-musica2.artista = "ivd";
-musica2.disponivel = false;
-musica2.duracao = 0;
+musica2.Nome = "Hoje";
+musica2.Artista = "ivd";
+// musica2.set_disponivel(false);
+musica2.Disponivel = false;
+musica2.Duracao = 0;
 
 musica1.Exibir_ficha_tecnica();
 musica2.Exibir_ficha_tecnica();
+Console.ReadKey();
