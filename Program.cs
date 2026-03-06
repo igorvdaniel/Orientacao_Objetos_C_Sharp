@@ -6,7 +6,7 @@ musica1.Artista = "Legião Urbana";
 //musica1.set_disponivel(true);
 musica1.Disponivel = true;
 musica1.Duracao = 1000;
-Console.WriteLine(musica1.Descricao_Resumida);
+Console.WriteLine(musica1.DescricaoResumida);
 
 musica2.Nome = "Hoje";
 musica2.Artista = "ivd";
