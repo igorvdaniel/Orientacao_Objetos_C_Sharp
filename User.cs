@@ -10,15 +10,15 @@ class User
     public string Email {get;}
     private bool Plano_Plus {get; }
 
-    private List<Musica> favoritos = new List<Musica>();
+    private List<Musica> Musicafavoritos = new List<Musica>();
 
-    public void Favoritar(Musica musica)
+    public void FavoritarMusica(Musica musica)
     {
-        favoritos.Add(musica);
+        Musicafavoritos.Add(musica);
     }
-    public void Desfavoritar(Musica musica)
+    public void DesfavoritarMusica(Musica musica)
     {
-        favoritos.Remove(musica);
+        Musicafavoritos.Remove(musica);
     }
 
     
