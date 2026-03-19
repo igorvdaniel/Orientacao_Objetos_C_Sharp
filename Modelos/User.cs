@@ -1,6 +1,6 @@
 namespace ScreenSound.Modelos;
 
-class User
+internal class User
 {
     public User(string nome, string email)
     {

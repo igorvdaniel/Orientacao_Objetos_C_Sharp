@@ -1,6 +1,6 @@
 namespace ScreenSound.Modelos;
 
-class Episodio
+internal class Episodio
 {
     Episodio(string titulo, int ordem, int duracao)
     {
